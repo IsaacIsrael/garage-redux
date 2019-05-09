@@ -1,0 +1,50 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: $light-gray;
+}
+
+a {
+  box-sizing: border-box;
+  text-align: center;
+  min-width: 192px;
+  text-decoration: none;
+  color: black !important;
+  transition: box-shadow 0.3s;
+  &:hover {
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.10);
+    text-decoration: none;
+  }
+  &:focus{
+    text-decoration: none;
+  }
+}
+
+section{
+  display: flex;
+  height: 90vh;
+  margin: 5vh auto;
+  box-shadow: 5px 7px 17px rgba(0,0,0,0.17);
+  border-radius: $border-radius;
+  background: white;
+  overflow: hidden;
+}
+
+button {
+  padding: $spacing/2 $spacing;
+  margin-left: -2px;
+  border-radius: $border-radius;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  border: none;
+  background-color: #D23333;
+  color: white;
+  font-weight: 600;
+}
+
+.delete{
+  border-radius: 0;
+  padding: $spacing/2 $spacing*1.5;
+
+  span:last-child{
+    padding-left: $spacing/2;
+  }
+}

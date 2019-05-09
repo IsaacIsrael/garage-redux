@@ -1,4 +1,10 @@
-.app {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+@import 'config/colors';
+@import 'config/variables';
+@import 'config/default';
+
+@import 'layouts/index';
+@import 'components/index';
+@import 'pages/index';
+
+
+

@@ -1,0 +1,32 @@
+.car-card{
+  display: flex;
+  background: $white;
+  position: relative;
+
+  .logo{
+    height: $car-logo-size;
+  }
+
+  .car-info{
+    padding: $spacing;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+
+    span{
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    p{
+      margin:0;
+    }
+  }
+
+  .plate {
+    padding: $spacing/2 $spacing*2.5;
+    font-size: 1.5em;
+    text-align: center;
+    border: $border-style black;
+  }
+}

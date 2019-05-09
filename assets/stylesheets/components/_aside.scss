@@ -1,0 +1,41 @@
+$logo-size: 90px;
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: $border;
+
+  .illustration {
+    width: 100%;
+    height: 30%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+
+  .logo {
+    margin-top: -1*($logo-size/2);
+    border: 4px solid $white;
+    border-radius: 50%;
+    z-index: 1;
+    width: $logo-size;
+    height: $logo-size;
+  }
+  h1 {
+    font-size: 1.6em;
+    margin: 1em 0;
+  }
+
+  p{
+    padding: 0 $spacing;
+    margin-bottom: $spacing*1.5;
+    line-height: 1.4em;
+    opacity: 0.6;
+  }
+  a {
+  padding: $spacing/2 $spacing;
+  border-radius: $border-radius;
+  border: $border-style $black;
+  font-weight: 600;
+  }
+}

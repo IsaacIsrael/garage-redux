@@ -1,0 +1,33 @@
+$logo-size: 120px;
+
+.car-list{
+  padding: 0;
+
+  li{
+    list-style: none;
+    margin-top: $spacing/2;
+    border-bottom: $border;
+    position: relative;
+
+    &:first-child{
+      margin-top: 0;
+    }
+
+    .logo{
+      height: $car-logo-size/2;
+    }
+
+    a{
+      position:absolute;
+      top: 0;
+      left: 0;
+      height:100%;
+      width: 100%;
+      cursor:pointer;
+    }
+
+    .plate{
+      display:none;
+    }
+  }
+}
